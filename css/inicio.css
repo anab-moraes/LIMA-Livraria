@@ -55,7 +55,11 @@ body {
 
 .home-parte-1 a {
     font-size: 25px;
+}
 
+.home-parte-1{
+    display: flex;
+    align-items: center;
 }
 
 .home-parte-2 {
@@ -110,6 +114,11 @@ body {
     color: white;
 }
 
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
 .i{
     position: relative;
     z-index: 1;
@@ -123,6 +132,10 @@ body {
     opacity: 0.79;
     border-radius: 8px;
     z-index: -1;
+}
+
+.barra-navegacao a:hover{
+    color: white;
 }
 
 /* barra de navegação 2 */

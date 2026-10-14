@@ -25,9 +25,14 @@ body {
     text-decoration: none;
     color: #662924;
     font-size: 14px;
-     font-family: "Inria Serif", serif;
+    font-family: "Inria Serif", serif;
     font-weight: 700;
 
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
 }
 
 .home-parte-1 {
@@ -35,7 +40,6 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-
 }
 
 .home-parte-1 a {
@@ -64,8 +68,7 @@ body {
 }
 
 .home-parte-2 img {
-    height: 32px;
-    width: 30px;
+    width: 30%;
 }
 
 .home-parte-3 img {
@@ -78,6 +81,8 @@ body {
     width: 16.98px;
     padding: 15px;
 }
+
+
 
 
 
@@ -110,32 +115,32 @@ main {
     left: 135px;
 }
 
-.bem-vindo img{
+.bem-vindo img {
     position: absolute;
     top: 135px;
     left: 50px;
 }
 
-.texto-home h2{
+.texto-home h2 {
     position: absolute;
     top: 120px;
     left: 50px;
     font-size: 55px;
 }
 
-.lerolero{
+.lerolero {
     font-style: italic;
     color: #662924;
 }
 
-.texto-home p{
+.texto-home p {
     position: absolute;
     font-size: 20px;
     top: 320px;
     left: 50px;
 }
 
-.button{
+.button {
     position: absolute;
     background-color: #662924;
     color: #ffffffff;
@@ -145,18 +150,18 @@ main {
     border-radius: 12px;
 }
 
-.button img{
+.button img {
     height: 30px;
     overflow: hidden;
 }
 
-.button a{
+.button a {
     display: flex;
     text-decoration: none;
     color: #ffff;
     align-items: center;
 }
 
-.espaco{
+.espaco {
     color: #662924;
 }
